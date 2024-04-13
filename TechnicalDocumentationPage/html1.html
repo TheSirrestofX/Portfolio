@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css1.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_and_other_languages"
+            >Python and Other Languages</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello World</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li>
+          <a class="nav-link" href="#Declaring_variables"
+            >Declaring Variables</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variable_scope">Variable Scope</a></li>
+        <li>
+          <a class="nav-link" href="#Global_variables">Global Variables</a>
+        </li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Data_types">Data Types</a></li>
+        <li>
+          <a class="nav-link" href="#if...else_statement"
+            >if...else Statement</a
+          >
+        </li>
+        <li><a class="nav-link" href="#while_statement">While Statement</a></li>
+        <li>
+          <a class="nav-link" href="#Function_declarations"
+            >Function Declarations</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Python is a high-level, interpreted programming language known for
+            its simplicity and readability. It emphasizes code readability and
+            allows programmers to express concepts in fewer lines of code than
+            would be possible in languages like C++ or Java.
+          </p>
+
+          <p>
+            Python supports multiple programming paradigms, including
+            object-oriented, imperative, and functional programming styles. It
+            comes with a large standard library that supports many common
+            programming tasks and protocols.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of programming concepts and logic.
+            </li>
+            <li>Basic knowledge of variables, data types, and control flow.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Python_and_other_languages">
+        <header>Python and Other Languages</header>
+        <article>
+          <p>
+            Python shares similarities with other programming languages, but it
+            also has its own unique features and syntax. While Python and
+            languages like Java or C++ share some syntax similarities, Python
+            is dynamically typed and does not require explicit variable
+            declarations.
+          </p>
+
+          <p>
+            Python's simplicity and readability make it an excellent choice for
+            beginners, while its versatility and power appeal to experienced
+            programmers.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>Hello World</header>
+        <article>
+          <p>
+            To get started with Python, you can write a simple "Hello, World!"
+            program:
+          </p>
+          <code>print("Hello, World!")</code>
+        </article>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+          <p>
+            Variables are used to store data in Python. Unlike some other
+            programming languages, Python does not require explicit
+            declaration of variables before using them.
+          </p>
+          <p>
+            Variable names in Python can contain letters, numbers, and
+            underscores (_), but they cannot start with a number. Python is
+            case-sensitive.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring Variables</header>
+        <article>
+          <p>
+            You can assign values to variables using the assignment operator
+            (=). For example:
+          </p>
+          <code>x = 42</code>
+          <p>
+            Python also supports multiple assignment, allowing you to assign
+            multiple variables in a single line:
+          </p>
+          <code>x, y, z = 10, 20, 30</code>
+        </article>
+      </section>
+      <section class="main-section" id="Variable_scope">
+        <header>Variable Scope</header>
+        <article>
+          <p>
+            In Python, variables have global and local scope. Variables
+            declared outside of any function have global scope and can be
+            accessed from anywhere in the program. Variables declared inside a
+            function have local scope and are only accessible within that
+            function.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Global_variables">
+        <header>Global Variables</header>
+        <article>
+          <p>
+            Global variables are declared outside of any function and can be
+            accessed from anywhere in the program. However, modifying global
+            variables from within a function requires the use of the global
+            keyword.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <article>
+          <p>
+            Although Python does not have built-in support for constants, you
+            can create constants by convention. By convention, constants are
+            named using uppercase letters.
+          </p>
+          <code>PI = 3.14</code>
+        </article>
+      </section>
+      <section class="main-section" id="Data_types">
+        <header>Data Types</header>
+        <article>
+          <p>
+            Python supports various data types, including integers, floats,
+            strings, lists, tuples, dictionaries, and more. Each data type has
+            its own set of operations and methods.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="if...else_statement">
+        <header>if...else Statement</header>
+        <article>
+          <p>
+            The if...else statement is used to execute code conditionally based
+            on whether a given condition is true or false.
+          </p>
+          <code>
+            if condition:
+            <br />
+            &nbsp;&nbsp;# Code to execute if condition is true
+            <br />
+            else:
+            <br />
+            &nbsp;&nbsp;# Code to execute if condition is false
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="while_statement">
+        <header>While Statement</header>
+        <article>
+          <p>
+            The while statement is used to repeatedly execute a block of code
+            as long as a given condition is true.
+          </p>
+          <code>
+            while condition:
+            <br />
+            &nbsp;&nbsp;# Code to execute while condition is true
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Function_declarations">
+        <header>Function Declarations</header>
+        <article>
+          <p>
+            Functions in Python are declared using the def keyword, followed by
+            the function name and parentheses containing any parameters. The
+            function body is indented.
+          </p>
+          <code>
+            def my_function(parameter1, parameter2):
+            <br />
+            &nbsp;&nbsp;# Function body
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://docs.python.org/3/tutorial/index.html"
+                target="_blank"
+                >Python Documentation</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
